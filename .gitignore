@@ -1,0 +1,40 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.eggs/
+dist/
+build/
+
+# Environments
+.venv/
+venv/
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Model weights & large files
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+
+# Data
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Local notes
+CLAUDE.local.md
+.claude/settings.local.json

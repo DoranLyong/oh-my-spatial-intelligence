@@ -23,11 +23,19 @@
 * **핵심 키워드:** Semantics (의미) & Feature Extraction (특징 추출)
 * **분류 근거:** "주어진 3D 데이터(Point Cloud 등)를 입력받아, 기하학적 형상 너머의 **'의미론적 클래스(Label)나 부위(Part)'**를 식별하는 것이 목표이기 때문입니다."
     * 단순한 좌표값(XYZ)을 고차원의 특징 벡터(Feature Vector)로 변환하여 '이것이 무엇인가'를 판단합니다.
-* **하위 분류:** Point Cloud Analysis (Backbone Networks)
+
+### 4-1. Point Cloud Analysis (3D 데이터를 어떻게 이해할 것인가?)
+* **핵심 키워드:** Backbone Networks & 3D Feature Learning
+* **분류 근거:** "포인트 클라우드를 입력받아, 분류(Classification)·분할(Segmentation) 등을 위한 **고차원 특징 표현**을 학습하는 백본 네트워크입니다."
 * **ex)** PointMamba (SSM), PointGST, PointNet++, DGCNN
 
+### 4-2. 3D Scene Graph Generation (공간의 의미론적 관계는 무엇인가?)
+* **핵심 키워드:** Hierarchical Understanding (계층적 이해) & Relation Reasoning
+* **분류 근거:** "단순한 3D 지도를 넘어, 객체 간의 **'위계적 관계(Relation)와 속성(Attribute)'**을 그래프 구조로 표현하여 공간에 대한 고차원 의미 추론을 수행합니다."
+* **ex)** Open-Vocabulary 3D Scene Graphs, Hydra, S-Graphs
+
 ## 5. 6D Pose Estimation (객체가 공간상 어디에, 어떤 자세로 놓여있는가?)
-* **핵심 키워드:** Alignment & Registration (정렬 및 정합)
+* **핵심 키워드:** Pose Matching & Registration (자세 정합 및 등록)
 * **분류 근거:** "대상의 형태를 바꾸거나 만드는 것이 아니라, 관측된 데이터(Observation)와 이미 알고 있는 모델(Reference) 사이의 **'공간적 변환 관계(Rotation, Translation)'**를 찾아내는 것이 목표이기 때문입니다."
     * 객체의 형상은 고정체(Rigid Body)로 가정하며, SE(3) 공간 상에서의 최적의 파라미터($R, t$)를 추정하는 것이 핵심입니다.
 * **ex)** FoundationPose, MegaPose, PVNet
@@ -53,8 +61,3 @@
 * **분류 근거:** "객체의 이름(Semantics)이 아니라, **'기능적 가능성(Affordance)'**을 3D 공간상에 매핑합니다."
     * 컵의 손잡이, 과일의 절단 위치 등 로봇이 행동을 취해야 할 좌표와 방향을 추론합니다.
 * **ex)** Contact-GraspNet, Affordance Diffusion, Where2Act
-
-### 6-4. 3D Scene Graph Generation (공간의 의미론적 관계는 무엇인가?)
-* **핵심 키워드:** Hierarchical Understanding (계층적 이해) & Relation Reasoning
-* **분류 근거:** "단순한 3D 지도를 넘어, 객체 간의 **'위계적 관계(Relation)와 속성(Attribute)'**을 그래프 구조로 표현하여 로봇의 고차원 추론을 돕습니다."
-* **ex)** Open-Vocabulary 3D Scene Graphs, Hydra, S-Graphs

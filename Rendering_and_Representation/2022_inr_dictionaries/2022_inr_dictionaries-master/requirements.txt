@@ -1,0 +1,15 @@
+jax[cuda12-local]
+dm-haiku>=0.0.12
+flax>=0.8.0
+optax>=0.2.0
+neural-tangents
+imageio
+matplotlib
+scikit-image
+scikit-learn
+tensorflow
+tensorflow-datasets
+tqdm
+scipy
+seaborn
+
