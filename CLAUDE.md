@@ -11,7 +11,7 @@ The taxonomy has 6 categories (directories map to these):
 | Category | Directory | Sub-categories | Examples |
 |---|---|---|---|
 | 1. Rendering & Representation | `Rendering_and_Representation/` | — | NeRF, 3DGS, INR Dictionaries |
-| 2. Geometry & Structure | `Geometry_and_Structure/` | — | DUSt3R, Test3R, CoMe |
+| 2. Geometry & Structure | `Geometry_and_Structure/` | — | DUSt3R, Test3R, CoMe, UFO-4D, LoGeR, TTT3R |
 | 3. Generative 3D | `Generative_3D/` | — | SAM 3D, GaussianGPT, DreamFusion |
 | 4. Perception & Understanding | `Perception/` | 4-1 Point Cloud Analysis, 4-2 Scene Graphs | PointMamba, PointGST, Hydra |
 | 5. 6D Pose Estimation | `6DoF_Pose/` | — | FoundationPose, Any6D |
@@ -36,6 +36,9 @@ Each studied paper has a `study_note.md` in its directory, created via the `/pap
 | GaussianGPT (2026) | `Generative_3D/2026_GaussianGPT/study_note.md` |
 | Test3R (2025) | `Geometry_and_Structure/2025_Test3R/study_note.md` |
 | SAM 3D (2025) | `Generative_3D/2025_SAM3D-objects/study_note.md` |
+| UFO-4D (2026) | `Geometry_and_Structure/2026_UFO-4D/study_note.md` |
+| LoGeR (2026) | `Geometry_and_Structure/2026_LoGeR/study_note.md` |
+| TTT3R (2026) | `Geometry_and_Structure/2026_TTT3R/study_note.md` |
 
 ## Environment & Dependencies
 
