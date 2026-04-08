@@ -39,6 +39,8 @@ Each studied paper has a `study_note.md` in its directory, created via the `/pap
 | UFO-4D (2026) | `Geometry_and_Structure/2026_UFO-4D/study_note.md` |
 | LoGeR (2026) | `Geometry_and_Structure/2026_LoGeR/study_note.md` |
 | TTT3R (2026) | `Geometry_and_Structure/2026_TTT3R/study_note.md` |
+| EUPE (2026) | `Perception/2026_EUPE/study_note.md` |
+| Perception Encoder (2025) | `Perception/2026_PerceptionEncoder/study_note.md` |
 
 ## Environment & Dependencies
 
