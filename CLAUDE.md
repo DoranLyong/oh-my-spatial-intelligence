@@ -41,6 +41,7 @@ Each studied paper has a `study_note.md` in its directory, created via the `/pap
 | TTT3R (2026) | `Geometry_and_Structure/2026_TTT3R/study_note.md` |
 | EUPE (2026) | `Perception/2026_EUPE/study_note.md` |
 | Perception Encoder (2025) | `Perception/2026_PerceptionEncoder/study_note.md` |
+| SegAnyGAussians (2025) | `Perception/2025_SegAnyGAussians/study_note.md` |
 
 ## Environment & Dependencies
 
