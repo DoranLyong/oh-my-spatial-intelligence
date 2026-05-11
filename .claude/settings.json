@@ -22,7 +22,12 @@
       "Write",
       "Edit",
       "Glob",
-      "Grep"
+      "Grep",
+      "Bash(grep -c \"^### Definition$\\\\|^### Properties$\\\\|^### Application$\\\\|^### Links$\" study_note.md)",
+      "Bash(grep -nE \"^\\\\$\\\\$|\\\\\\\\\\\\\\\\tag\" /Users/kist/Workspace/01_Active/PhD_theory/oh-my-spatial-intelligence/Physical_AI/02_Physics-based/2026_LeWorldModel/study_note.md)",
+      "Bash(grep -c \"^\\\\`\\\\`\\\\`mermaid$\" study_note.md)",
+      "Bash(awk 'length > 350 {print NR\": \"length\" chars\"}' study_note.md)",
+      "Bash(awk 'length > 500 {print NR\": \"length\" chars\"}' study_note.md)"
     ],
     "deny": [
       "Bash(rm -rf *)",

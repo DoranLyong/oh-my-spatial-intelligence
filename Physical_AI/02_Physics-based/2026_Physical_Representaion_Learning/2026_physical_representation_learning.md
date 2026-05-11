@@ -3,7 +3,7 @@
 > Published at ICLR 2026 Workshop on AI & PDE
 > arXiv:2603.13227v1 [cs.LG] 13 Mar 2026
 
-**Authors.** Helen Qu¹†, Rudy Morel¹, Michael McCabe¹⁴, Alberto Bietti¹, François Lanusse², Shirley Ho¹³⁴, Yann LeCun³
+**Authors.** Helen Qu¹†, Rudy Morel¹, Michael McCabe¹,⁴, Alberto Bietti¹, François Lanusse², Shirley Ho¹,³,⁴, Yann LeCun³
 
 **The Polymathic AI Collaboration**
 
@@ -58,7 +58,7 @@ Our baselines center their approaches on learning physical priors, either throug
 
 **Autoregressive foundation models.** Foundation models for physics, often implemented as pixel-level autoregressive models for spatiotemporal systems, learn to predict the pixel values of the frame at the next timestep $x_{t+1}$ given a context window of the previous $n$ frames, $x_{t-n:t}$. These are often called "surrogate models" due to their potential to replace the computationally expensive procedure of numerically solving for the next step of the spatiotemporal system (e.g., through PDE numerical solvers).
 
-**In-context operator learning.** In-context operator learning models combine in-context transformers with the inductive bias of neural operators. Rather than learning a single operator across all trajectories, that are described by multiple physics, this approach infers a trajectory-specific operator network $f_\theta$ that is, an evolution rule, from a short context window and evolves it forward in time using explicit integration.
+**In-context operator learning.** In-context operator learning models combine in-context transformers with the inductive bias of neural operators. Rather than learning a single operator across all trajectories, that are described by multiple physics, this approach infers a trajectory-specific operator network $f_\theta$, that is, an evolution rule, from a short context window and evolves it forward in time using explicit integration.
 
 ### 2.3 Fine-tuning
 
