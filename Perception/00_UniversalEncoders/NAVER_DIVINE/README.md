@@ -1,0 +1,1 @@
+https://europe.naverlabs.com/research/a-universal-encoder-for-computer-vision/
