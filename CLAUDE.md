@@ -13,7 +13,7 @@ The taxonomy has 6 categories (directories map to these):
 | 1. Rendering & Representation | `Rendering_and_Representation/` | — | NeRF, 3DGS, INR Dictionaries |
 | 2. Geometry & Structure | `Geometry_and_Structure/` | — | DUSt3R, Test3R, CoMe, UFO-4D, LoGeR, TTT3R |
 | 3. Generative 3D | `Generative_3D/` | — | SAM 3D, GaussianGPT, DreamFusion |
-| 4. Perception & Understanding | `Perception/` | 4-1 Point Cloud Analysis, 4-2 Scene Graphs | PointMamba, PointGST, Hydra |
+| 4. Perception & Understanding | `Perception/` | 00 Universal Encoders, 4-1 Point Cloud Analysis, 4-2 Scene Graphs | UNIC, DUNE, EUPE, Perception Encoder, PointMamba, Hydra |
 | 5. 6D Pose Estimation | `6DoF_Pose/` | — | FoundationPose, Any6D |
 | 6. Physical AI & Interaction | *(planned)* | 6-1 Dynamic 4D, 6-2 Physics, 6-3 Affordance | 4D GS, Contact-GraspNet |
 
@@ -39,8 +39,8 @@ Each studied paper has a `study_note.md` in its directory, created via the `/pap
 | UFO-4D (2026) | `Geometry_and_Structure/2026_UFO-4D/study_note.md` |
 | LoGeR (2026) | `Geometry_and_Structure/2026_LoGeR/study_note.md` |
 | TTT3R (2026) | `Geometry_and_Structure/2026_TTT3R/study_note.md` |
-| EUPE (2026) | `Perception/2026_EUPE/study_note.md` |
-| Perception Encoder (2025) | `Perception/2026_PerceptionEncoder/study_note.md` |
+| EUPE (2026) | `Perception/00_UniversalEncoders/2026_EUPE/study_note.md` |
+| Perception Encoder (2025) | `Perception/00_UniversalEncoders/2026_PerceptionEncoder/study_note.md` |
 | SegAnyGAussians (2025) | `Perception/2025_SegAnyGAussians/study_note.md` |
 
 ## Environment & Dependencies
